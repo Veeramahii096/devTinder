@@ -6,11 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
-    "local":"nodemon src/app.js"
+    "local": "nodemon src/app.js"
   },
   "author": "Veerasamy",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "local": "^0.3.3",
+    "mongoose": "^8.16.3",
+    "npm": "^11.4.2",
+    "run": "^1.5.0"
   }
 }
